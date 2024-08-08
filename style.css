@@ -1,0 +1,254 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+
+}
+li{
+    list-style-type: none;
+}
+.headall-sec{
+    width: 100%;
+    height: auto;
+    background: url(images/navbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+    
+   
+}
+
+.nav-link{
+    font-weight: bold;
+    color:black;
+  
+       /* background: #D3D5D9; */
+       border-bottom: 2px solid #80008000;
+    padding-left: 36px !important;
+    padding-right: 36px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+.nav-link:hover{
+    font-weight: bold;
+    color:black;
+    background: #D3D5D9;
+    border-bottom: 2px solid purple;
+    padding-left: 36px !important;
+    padding-right: 36px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    transition: all 0.9s;
+    
+}
+.text-area-nav{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.navbtn{
+    background-color: white;
+    color: #262D3B;
+    /* text-align: center; */
+    display: inline-block;
+    /* text-align: center; */
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: 700;
+
+}
+.nav-foot{
+    position: absolute;
+    width: 100%;
+    top:93%;
+}
+.foot-nav-content{
+    
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.inputbtn{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #0000005c;
+    outline: none;
+    width: 100%;
+    
+}
+
+
+.content-foot{
+    display: flex;
+    justify-content: space-evenly;
+    gap:25px;
+}
+.drop{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    width: 100%;
+}
+
+/* spcial-offer */
+.spcial-offer{
+    padding-top: 180px;
+    padding-bottom: 20px;
+}
+
+/* tour-card-sec start */
+
+.tour-card-sec{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.card-foot{
+    display: flex;
+    gap:33px;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot-doller{
+    color: #4657F0;
+  
+    background: #4657f02b;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+/* ourbenifit-sec start */
+.ourbenifit-sec{
+    padding-top: 90px;
+    padding-bottom: 80px;
+    background-color: #F4F8FB;
+}
+
+.icon-div{
+    display: flex;
+    gap:25px;
+    
+}
+.alliconsleft{
+    font-size: 30px;
+    color:#4657F0;
+}
+.sec-flex-area{
+    display: flex;
+    gap:29px;
+}
+.pic-flex-div{
+    display: flex;
+    gap: 8px;
+}
+.icon-heading{
+    display: flex;
+    gap:13px;
+}
+.main-text{
+    display: flex;
+    gap:15px;
+}
+/* feauterplace-sec start */
+
+.feauterplace-sec{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/* eautecare-sec */
+
+.eautecare-sec{
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+/* travelarea-sec start */
+
+.travelarea-sec{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+/* img-sec start */
+
+.img-sec{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+/* button-sec start */
+
+.myButton{
+    background-color: black;
+    color: white;
+    padding-left: 29ox;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    border-radius: 8px;;
+}
+
+/* newleates-sec */
+.newleates-sec{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.travel-left-pic{
+    display: flex;
+    gap:20px;
+}
+.travel-top{
+    display: flex;
+    gap:15px;
+}
+.travel-img-pic{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+/* foot-sec start */
+
+.foot-sec{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #191B26;
+}
+.footicons{
+    color:white;
+    font-size: 40px;
+    cursor: pointer;
+}
+.footicons:hover{
+    color: #4657F0;
+    transition: all 0.5s;
+}
+.foot-icon-sec{
+    display: flex;
+    justify-content: space-evenly;
+}
+.link-area{
+    display: flex;
+    justify-content: space-evenly;
+}
+.linka{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
